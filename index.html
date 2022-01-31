@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&family=Source+Serif+4:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube mobile</title>
+    <script 
+        src="https://kit.fontawesome.com/de745c8c9f.js"
+        crossorigin="anonymous"
+        ></script>
+        <script src="main.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span> <!--<span>은 <div>와 매우 유사하지만, <div>는 block level 요소인 반면 <span>은 inline 요소입니다.-->
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+        <video controls src="video/People - 84973.mp4"></video>
+    </section>
+    
+<div class="infoAndUpNext">
+        <!-- Video Info -->
+        <section class="info">
+            <!-- Metadata -->
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#DreamCoding</li>
+                    <li>#DreamCoders</li>
+                    <li>#Ellie</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp"
+                    >클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript dkssuddkgptydkjksjalkdjflk;ajsdlkfjlkasejflkjdlkfjalsjdflkjsdl;kfjal;skjdfl;djflksjdlkfjlajldsj;flkjsaldkfj;laskdjflkjsd;jflksjd;lfkjasldkfjlakdsjf;alkdsjf;lksajd;lfkjasl;kdjflakjsdfl;kajsdl;kfjals;kdjflaksjdfkl;djdjflskjflkajldfjlskdjflksjdlfkjlskjflkj;lewjriewovlkzn,mxcnv.,mnlkdjsfqijwelirjlksjr;lkjsaflkn,znv.,cx
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+                <span class="views">1M views 1 month ago</span>
+            </div>
+            <!-- Actions -->
+            <ul class="actions">
+                <li><button><i class="active fas fa-thumbs-up"></i><span>1K</span></button></li>
+                <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+                <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+                <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+                <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
+            </ul>    
+            <!-- Channel Description -->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="image/portrait-g57902feca_1280.jpg" alt="" />
+                    <div class="info">
+                        <span class="name">드림코딩 by 엘리</span>
+                        <span class="subscribers">1M subscribers</span>
+                    </div>
+                </div>
+                <button class="subscribe">subscribe</button>
+            </div>
+        </section> 
+        <!-- Up Next -->
+        <section class="upNext">
+            <span class="title">Up next</span>
+            <ul>
+                <li class="item">
+                    <div class="img"><img src="image/sunset-g0faad4eac_1280.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">1번 동영상</span>
+                        <span class="name">1번 이름</span>
+                        <span class="views">1M</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/milky-way-g455579b72_1280.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">2번 동영상</span>
+                        <span class="name">2번 이름</span>
+                        <span class="views">2M</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/drop-g8870b1cf3_1280.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">3번 동영상</span>
+                        <span class="name">3번 이름</span>
+                        <span class="views">3M</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+</div>
+</body>
+</html>
