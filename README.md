@@ -1,5 +1,5 @@
 # Youtube-Mobile: HTML, CSS, Javascript
-  * Youtube mobile 반응형 화면 만들기
+   **Youtube mobile 반응형 화면 만들기**
    > (file) index, main, style: 클론코딩
 
    **Practice**
